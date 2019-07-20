@@ -88,15 +88,7 @@ function getArticles ($category , $Articles ){
 
 if(isset($_GET['id']) && isset($_GET['catt'])){
     header("Location:Articles.php?catt=".$_GET['catt']."&del=".$_GET['id']);
-
-
     exit();
-
-    //var_dump(cat());
-
-    // $Articles->delete($_GET['id'] , null );
-    //header("Location:Articles.php");
-    // exit();
 }
 
 
