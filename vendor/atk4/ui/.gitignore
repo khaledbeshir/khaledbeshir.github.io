@@ -1,0 +1,13 @@
+/config.codekit
+/phpunit.xml
+/.idea
+/public/semantic
+/public/jquery
+/vendor
+docs/build
+/composer.lock
+/build
+.DS_Store
+*.codekit3
+
+run_local.sh
